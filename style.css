@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+.realWorld{
+  font-family: 'Kaisei HarunoUmi', serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+@media (min-width: 768px) {
+    .news-input {
+      width: 50%;
+    }
+  }
+
+.main-text-font{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+.custom-font{
+  font-family: 'Noto Serif', serif;
+  font-size: 40px;
+}
