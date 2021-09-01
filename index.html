@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>udemy clone</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-light bg-light shadow-sm">
+      <div class="container justify-content-between p-2">
+        <a href="#" class="navbar-brand h2">Udemy</a>
+        <div class="dropdown">
+          <button
+            class="btn btn-info dropdown-toggle"
+            type="button"
+            id="dropdownbtn"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            categories
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownbtn">
+            <a href="#" class="dropdown-item">devlopment</a>
+            <a href="#" class="dropdown-item">design</a>
+            <a href="#" class="dropdown-item">Adobe</a>
+            <a href="#" class="dropdown-item">devops</a>
+          </div>
+        </div>
+        <form class="form-inline">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+          />
+        </form>
+        
+        <a href="#" class="text-dark text-danger">Udemy Buisness</a>
+        <a href="#" class="text-dark">Teach on Udemy</a>
+        <button class="btn btn-success">Log in</button>
+        <button class="btn btn-dark">sign up</button>
+      </div>
+    </nav>
+
+    <section class="p-1" style="background-color: rgb(247, 248, 250)">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div
+              class="card style shadow-lg m-5"
+              style="width: 440; height: 274"
+            >
+              <div class="card-body align-content-center">
+                <div class="card-title realWorld">Real-world learning</div>
+                <div class="card-text main-text-font">
+                  Our instructors' experience is your gain. Courses from ₹525.
+                  Ends Sept. 1
+                </div>
+                <input
+                  type="text"
+                  placeholder="What do you want to learn?"
+                  class="form-control mt-3"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col"><img src="./img/udemy_1.png" alt="" /></div>
+        </div>
+      </div>
+    </section>
+    <section class="p-4">
+      <div class="container">
+        <div class="custom-font">A broad selection of courses</div>
+        <div style="font-size: larger">
+          Choose from 155,000 online video courses with new additions published
+          every month
+        </div>
+      </div>
+    </section>
+
+    <!--tabs-->
+    <section class="mt-3">
+      <div class="container mt-3">
+      
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Python</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu1">JavaScript</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu2">WebDevlopment</a>
+          </li>
+          
+        </ul>
+      
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div id="home" class="container tab-pane active"><br>
+            <div class="container ">
+              <div class="div h3">
+                Expand your career opportunities with Python
+              </div>
+              <div class="mt-3">
+                Whether you work in machine learning or finance, or are pursuing
+                a career in web development or data science, Python is one of
+                the most important skills you can learn. Python's simple syntax
+                is especially suited for desktop, web, and business
+                applications. Python's design philosophy emphasizes readability
+                and usability. Python was
+              </div>
+              <button class="btn btn-primary mt-3">Explore Python</button>
+              <div class="row mt-4">
+                <div class="col">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="card-img-top">
+                        <img
+                          src="https://img-c.udemycdn.com/course/240x135/567828_67d0.jpg"
+                          class="img-fluid"
+                          alt="#"
+                        />
+                        <div class="card-title">
+                          2021 Complete Python Bootcamp From Zero to Hero in
+                          Python
+                        </div>
+                        <div class="div">Jose Portilla</div>
+                        <a href="#"
+                          ><i class="bi bi-star-fill text-dark mx-1"></i
+                        ></a>
+                        <a href="#"
+                          ><i class="bi bi-star-fill text-dark mx-1"></i
+                        ></a>
+                        <a href="#"
+                          ><i class="bi bi-star-fill text-dark mx-1"></i
+                        ></a>
+                        <a href="#"
+                          ><i class="bi bi-star-fill text-dark mx-1"></i
+                        ></a>
+                        <div>15$ <s>60$</s></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col">
+                  <div class="card card-body">
+                    <div class="card-img-top">
+                      <img
+                        src="https://img-c.udemycdn.com/course/240x135/567828_67d0.jpg"
+                        class="img-fluid"
+                        alt="#"
+                      />
+                      <div class="card-title">
+                        2021 Complete Python Bootcamp From Zero to Hero in
+                        Python
+                      </div>
+                      <div class="div">Jose Portilla</div>
+                      <a href="#"
+                        ><i class="bi bi-star-fill text-dark mx-1"></i
+                      ></a>
+                      <a href="#"
+                        ><i class="bi bi-star-fill text-dark mx-1"></i
+                      ></a>
+                      <a href="#"
+                        ><i class="bi bi-star-fill text-dark mx-1"></i
+                      ></a>
+                      <a href="#"
+                        ><i class="bi bi-star-fill text-dark mx-1"></i
+                      ></a>
+                      <div>15$ <s>60$</s></div>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="card-img-top">
+                        <img
+                          src="https://img-c.udemycdn.com/course/240x135/567828_67d0.jpg"
+                          class="img-fluid"
+                          alt="#"
+                        />
+                        <div class="card-title">
+                          2021 Complete Python Bootcamp From Zero to Hero in
+                          Python
+                        </div>
+                        <div class="div">Jose Portilla</div>
+                        <a href="#"
+                          ><i class="bi bi-star-fill text-dark mx-1"></i
+                        ></a>
+                        <a href="#"
+                          ><i class="bi bi-star-fill text-dark mx-1"></i
+                        ></a>
+                        <a href="#"
+                          ><i class="bi bi-star-fill text-dark mx-1"></i
+                        ></a>
+                        <a href="#"
+                          ><i class="bi bi-star-fill text-dark mx-1"></i
+                        ></a>
+                        <div>15$ <s>60$</s></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="card-img-top">
+                        <img
+                          src="https://img-c.udemycdn.com/course/240x135/567828_67d0.jpg"
+                          class="img-fluid"
+                          alt="#"
+                        />
+                        <div class="card-title">
+                          2021 Complete Python Bootcamp From Zero to Hero in
+                          Python
+                        </div>
+                        <div class="div">Jose Portilla</div>
+                        <a href="#"
+                          ><i class="bi bi-star-fill text-dark mx-1"></i
+                        ></a>
+                        <a href="#"
+                          ><i class="bi bi-star-fill text-dark mx-1"></i
+                        ></a>
+                        <a href="#"
+                          ><i class="bi bi-star-fill text-dark mx-1"></i
+                        ></a>
+                        <a href="#"
+                          ><i class="bi bi-star-fill text-dark mx-1"></i
+                        ></a>
+                        <div>15$ <s>60$</s></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="card-img-top">
+                        <img
+                          src="https://img-c.udemycdn.com/course/240x135/567828_67d0.jpg"
+                          class="img-fluid"
+                          alt="#"
+                        />
+                        <div class="card-title">
+                          2021 Complete Python Bootcamp From Zero to Hero in
+                          Python
+                        </div>
+                        <div class="div">Jose Portilla</div>
+                        <a href="#"
+                          ><i class="bi bi-star-fill text-dark mx-1"></i
+                        ></a>
+                        <a href="#"
+                          ><i class="bi bi-star-fill text-dark mx-1"></i
+                        ></a>
+                        <a href="#"
+                          ><i class="bi bi-star-fill text-dark mx-1"></i
+                        ></a>
+                        <a href="#"
+                          ><i class="bi bi-star-fill text-dark mx-1"></i
+                        ></a>
+                        <div>15$ <s>60$</s></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div id="menu1" class="container tab-pane fade"><br>
+            U
+          </div>
+          <div id="menu2" class="container tab-pane fade"><br>
+            S
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="">
+      <section style="background-color: rgb(247, 248, 250)">
+        <div class="row p-5">
+          <div class="col h5"> 
+            <div class="col"><a href="#" class="h1 text-dark"><i class="bi bi-play-btn"></i></a></div>
+            <div class="col mt-2">Learn in-demand skills with over 155,000 video courses</div>
+          </div>
+          <div class="col h5"> 
+            <div class="col"><a href="#" class="h1 text-dark"><i class="bi bi-person-square"></i></a></div>
+            <div class="col mt-2">Choose courses taught by real-world experts</div>
+          </div>
+          <div class="col h5"> 
+            <div class="col"><a href="#" class="h1 text-dark"><i class="bi bi-cpu"></i></a></div>
+            <div class="col mt-2">Learn at your own pace, with lifetime access on mobile and desktop</div>
+          </div>
+        </div>
+      </section>
+    </section>
+    
+    <!--Cources card-->
+
+    <section>
+      <div class="container mt-4">
+        <h3>Students are viewing</h3>
+        <div class="row mt-5">
+          <div class="col">
+            <img src="https://img-c.udemycdn.com/course/240x135/793796_0e89.jpg" class="" alt="#">
+            <div class="div mt-3">
+              <h5>The Complete 2021 Web Development Bootcamp</h5>
+              Dr.Angela Yu
+            </div>
+            <div>
+              <a><i class="bi bi-star-fill text-dark mx-1"></i></a>
+              <a><i class="bi bi-star-fill text-dark mx-1"></i></a>
+              <a><i class="bi bi-star-fill text-dark mx-1"></i></a>
+              <a><i class="bi bi-star-fill text-dark mx-1"></i></a>
+              <a><i class="bi bi-star-fill text-dark mx-1"></i></a>
+            </div>
+            <div>15$ <s>60$</s></div>
+          </div>
+          <div class="col">
+            <img src="https://img-c.udemycdn.com/course/240x135/1643044_e281.jpg" class="" alt="#">
+            <div class="div mt-3">
+              <h5>Graphic Design Masterclass - Learn GREAT Design</h5>
+              Dr.Angela Yu
+            </div>
+            <div>
+              <a><i class="bi bi-star-fill text-dark mx-1"></i></a>
+              <a><i class="bi bi-star-fill text-dark mx-1"></i></a>
+              <a><i class="bi bi-star-fill text-dark mx-1"></i></a>
+              <a><i class="bi bi-star-fill text-dark mx-1"></i></a>
+              <a><i class="bi bi-star-fill text-dark mx-1"></i></a>
+            </div>
+            <div>15$ <s>60$</s></div>
+          </div>
+          <div class="col">
+            <img src="https://img-c.udemycdn.com/course/240x135/614772_233b_9.jpg" class="" alt="#">
+            <div class="div mt-3">
+              <h5>The Complete Cyber Security Course : Hackers Exposed!</h5>
+              Dr.Angela Yu
+            </div>
+            <div>
+              <a><i class="bi bi-star-fill text-dark mx-1"></i></a>
+              <a><i class="bi bi-star-fill text-dark mx-1"></i></a>
+              <a><i class="bi bi-star-fill text-dark mx-1"></i></a>
+              <a><i class="bi bi-star-fill text-dark mx-1"></i></a>
+              <a><i class="bi bi-star-fill text-dark mx-1"></i></a>
+            </div>
+            <div>15$ <s>60$</s></div>
+          </div>
+          <div class="col">
+            <img src="https://img-c.udemycdn.com/course/240x135/914296_3670_8.jpg" class="" alt="#">
+            <div class="div mt-3">
+              <h5>The Complete Digital Marketing Course - 12 Courses in 1</h5>
+              Dr.Angela Yu
+            </div>
+            <div>
+              <a><i class="bi bi-star-fill text-dark mx-1"></i></a>
+              <a><i class="bi bi-star-fill text-dark mx-1"></i></a>
+              <a><i class="bi bi-star-fill text-dark mx-1"></i></a>
+              <a><i class="bi bi-star-fill text-dark mx-1"></i></a>
+              <a><i class="bi bi-star-fill text-dark mx-1"></i></a>
+            </div>
+            <div>15$ <s>60$</s></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Become An Instructor-->
+    <section class="p-5 ">
+      <div class="container">
+        <div class="row align-items-center ">
+          <div class="col-md">
+            <img src="https://s.udemycdn.com/home/non-student-cta/instructor-1x-v3.jpg" class="img-fluid" alt="javascript">
+          </div>
+          <div class="col-md">
+            <h2>
+              Become an instructor
+            </h2>
+            <p class="lead">Instructors from around the world teach millions of students on Udemy. We provide the tools and skills to teach what you love. </p>
+            <a href="#" class="btn btn-dark mt-1">Start teaching today</a>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!--Top categories-->
+
+    <section>
+      <div class="container mt-4">
+        <h3>Top categories</h3>
+        <div class="row mt-5">
+          <div class="col">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg" class="img-fluid" alt="#">
+            <h5>Design</h5>
+          </div>
+          <div class="col">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg" class="img-fluid" alt="#">
+            <h5>Devlopment</h5>
+          </div>
+          <div class="col">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-marketing-v2.jpg" class="img-fluid" alt="#">
+            <h5>Marketing</h5>
+          </div>
+          <div class="col">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-it-and-software-v2.jpg" class="img-fluid" alt="#">
+            <h5>IT and Software</h5>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg" class="img-fluid" alt="#">
+            <h5>Design</h5>
+          </div>
+          <div class="col">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-it-and-software-v2.jpg" class="img-fluid" alt="#">
+            <h5>Devlopment</h5>
+          </div>
+          <div class="col">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg" class="img-fluid" alt="#">
+            <h5>Marketing</h5>
+          </div>
+          <div class="col">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg" class="img-fluid" alt="#">
+            <h5>IT and Software</h5>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg" class="img-fluid" alt="#">
+            <h5>Design</h5>
+          </div>
+          <div class="col">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg" class="img-fluid" alt="#">
+            <h5>Devlopment</h5>
+          </div>
+          <div class="col">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg" class="img-fluid" alt="#">
+            <h5>Marketing</h5>
+          </div>
+          <div class="col">
+            <img src="https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg" class="img-fluid" alt="#">
+            <h5>IT and Software</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Become An Instructor-->
+    <section class="p-5 ">
+      <div class="container">
+        <div class="row align-items-center ">
+          
+          <div class="col-md">
+            <h2>
+              Udemy Buisness
+            </h2>
+            <p class="lead">Get unlimited access to 6,000+ of Udemy’s top courses for your team. Learn and improve skills across business, tech, design, and more. </p>
+            <a href="#" class="btn btn-dark mt-1">Get Udemy Buisness</a>
+          </div>
+          <div class="col-md">
+            <img src="https://s.udemycdn.com/home/non-student-cta/ub-1x-v3.jpg" class="img-fluid" alt="javascript">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+    $(document).ready(function(){
+      $(".nav-tabs a").click(function(){
+        $(this).tab('show');
+      });
+    });
+    </script>
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+
+    <script>
+      mapboxgl.accessToken =
+        "pk.eyJ1IjoiYnRyYXZlcnN5IiwiYSI6ImNrbmh0dXF1NzBtbnMyb3MzcTBpaG10eXcifQ.h5ZyYCglnMdOLAGGiL1Auw";
+      var map = new mapboxgl.Map({
+        container: "map",
+        style: "mapbox://styles/mapbox/streets-v11",
+        center: [-71.060982, 42.35725],
+        zoom: 18,
+      });
+    </script>
+  </body>
+</html>
